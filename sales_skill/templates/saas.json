@@ -1,0 +1,11 @@
+{
+  "industry_key": "saas",
+  "signal_patterns": ["融资", "招聘", "安全", "合规", "企业客户", "竞品", "政策", "技术栈"],
+  "pain_library": [
+    {"template_id": "s-growth", "description": "增长阶段可能出现获客与客户成功信息割裂", "validation_question": "销售和客户成功团队怎样共享续费及扩张信号？", "signal_keywords": ["融资", "销售", "企业客户"]},
+    {"template_id": "s-security", "description": "企业客户增长可能增加安全合规评审负担", "validation_question": "客户安全评审最常在哪个环节影响签约周期？", "signal_keywords": ["安全", "合规", "政策"]},
+    {"template_id": "s-platform", "description": "技术栈演进可能使系统集成与维护复杂度上升", "validation_question": "现有系统之间的数据同步是否影响产品交付或客户体验？", "signal_keywords": ["技术栈", "技术", "研发", "招聘"]}
+  ],
+  "role_map": {"业务负责人": "关键影响者", "技术负责人": "技术评估者", "采购负责人": "采购影响者", "安全合规负责人": "合规影响者", "客户成功负责人": "关键使用者"},
+  "hook_strategies": ["以增长阶段的客户交付和评审变化提问，验证一个具体流程瓶颈"]
+}

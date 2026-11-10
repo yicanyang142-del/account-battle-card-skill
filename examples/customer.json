@@ -1,0 +1,62 @@
+{
+  "company_name": "华东智造科技有限公司",
+  "industry": "manufacturing",
+  "base_info_dict": {
+    "business_model": "虚构企业：面向工业客户提供智能制造设备与产线服务",
+    "scale": "约300人（示例数据）"
+  },
+  "news_events": [
+    {
+      "title": "新国标Q3执行",
+      "description": "具体标准编号、年份、生效日期和适用范围均待核实",
+      "source": "虚构新闻",
+      "url": "https://example.org/standard",
+      "occurred_at": null,
+      "published_at": "2026-11-03T04:07:18.324651Z",
+      "deadline_at": null,
+      "claim_key": null,
+      "polarity": "unknown",
+      "category": "news",
+      "source_excerpt": null
+    }
+  ],
+  "funding_events": [
+    {
+      "title": "完成B轮融资",
+      "description": "拟用于产线与海外业务拓展",
+      "source": "虚构融资公告",
+      "url": "https://example.org/funding",
+      "occurred_at": "2026-11-03T04:07:18.324651Z",
+      "published_at": "2026-11-03T04:07:18.324651Z",
+      "deadline_at": null,
+      "claim_key": null,
+      "polarity": "unknown"
+    }
+  ],
+  "job_postings": [
+    {
+      "title": "海外区域销售经理",
+      "description": "多个区域招聘",
+      "department": "",
+      "source": "虚构招聘页",
+      "url": "https://example.org/sales",
+      "posted_at": "2026-11-03T04:07:18.324651Z"
+    },
+    {
+      "title": "生产合规工程师",
+      "description": "密集招聘，负责生产标准与追溯",
+      "department": "",
+      "source": "虚构招聘页",
+      "url": "https://example.org/compliance",
+      "posted_at": "2026-11-03T04:07:18.324651Z"
+    }
+  ],
+  "leadership_changes": [],
+  "tech_indicators": [],
+  "crm_history": {
+    "last_contact_type": "cold_email",
+    "last_contact_at": "2026-08-12T04:07:18.324651+00:00",
+    "replied": false,
+    "summary": "3个月前发过一次冷邮件，无后续"
+  }
+}

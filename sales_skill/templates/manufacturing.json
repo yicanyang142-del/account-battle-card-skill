@@ -1,0 +1,11 @@
+{
+  "industry_key": "manufacturing",
+  "signal_patterns": ["融资", "海外", "合规", "国标", "产线", "良率", "政策", "竞品"],
+  "pain_library": [
+    {"template_id": "m-compliance", "description": "新标准实施可能使跨部门合规与追溯准备承压", "validation_question": "新标准对应的追溯资料由谁汇总，目前哪一环最难验证？", "signal_keywords": ["合规", "国标", "标准", "政策"]},
+    {"template_id": "m-cost", "description": "融资后扩张可能增加成本核算与资源配置压力", "validation_question": "扩张过程中，成本核算和资源配置是否出现需要优先解决的问题？", "signal_keywords": ["融资", "海外", "扩产"]},
+    {"template_id": "m-market", "description": "海外业务拓展可能缺少区域需求和竞品信息协同机制", "validation_question": "海外区域团队如何共享客户需求、竞品和准入信息？", "signal_keywords": ["海外", "区域销售", "竞品"]}
+  ],
+  "role_map": {"业务负责人": "关键影响者", "技术负责人": "技术评估者", "采购负责人": "采购影响者", "合规负责人": "合规影响者", "生产负责人": "关键使用者"},
+  "hook_strategies": ["围绕近期动作提出跨部门协同问题，先核实优先级，再讨论可验证的小范围场景"]
+}
